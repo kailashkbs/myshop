@@ -1,6 +1,3 @@
-<a href="http://kindlebit.com/">
-    <img src="http://shopping-point.kindlebit.com/images/logo.png" alt="shopping logo" title="SHopping" align="right" height="60" />
-</a>
 
 # ShoppingPoint shop system
 
