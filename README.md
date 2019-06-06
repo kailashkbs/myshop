@@ -10,9 +10,6 @@
 - [Installation](#installation)
 - [Frontend](#frontend)
 - [Backend](#backend)
-- [Customize](#customize)
-- [License](#license)
-- [Links](#links)
 
 ## Requirements
 
@@ -30,7 +27,16 @@ dependencies.
 To install the ShoppingPoint shop application, you need [composer](https://getcomposer.org).
 On the CLI, execute this command for a complete installation including a working setup:
 
-`composer create-project ShoppingPoint/ShoppingPoint myshop`
+`git clone https://github.com/kailashkbs/myshop`
+`cd myshop`
+`composer install`
+`php artisan key:generate`
+`php artisan vendor:publish --all`
+`php artisan aimeos:setup --option=setup/default/demo:1`
+`php artisan aimeos:cache`
+`php artisan serve`
+
+
 
 You will be asked for the parameters of your database and mail server as well as an
 e-mail and password used for creating the administration account.
